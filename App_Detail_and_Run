@@ -1,0 +1,59 @@
+# 🚗 Car Price Prediction App
+
+A machine learning project to predict the **selling price of used cars** based on various features such as present price, kilometers driven, fuel type, transmission, owner history, and car age. The model is trained using **Random Forest Regressor** and deployed using **Streamlit** for interactive prediction.
+
+---
+
+
+##  How to Run the App
+
+###  Step 1: Clone the Repository
+```
+git clone https://github.com/yourusername/car-price-prediction-app.git
+cd car-price-prediction-app
+```
+
+###  Step 2: Install Dependencies
+```
+pip install streamlit scikit-learn pandas numpy joblib
+```
+
+###  Step 3: Launch the App
+```
+streamlit run app.py
+```
+
+App will open in your browser at: [http://localhost:8501](http://localhost:8501)
+
+---
+
+##  Model Features Used for Prediction
+- Present_Price
+- Kms_Driven
+- Fuel_Type (encoded)
+- Seller_Type (encoded)
+- Transmission (encoded)
+- Owner
+- Car_Age
+
+Model file: `car_price_model.pkl`
+
+---
+
+##  Technologies Used
+- Python
+- Pandas, NumPy
+- Scikit-learn
+- Joblib
+- Streamlit
+
+---
+
+##  Acknowledgements
+- Dataset sourced from open car resale listings
+- Inspired by multiple regression projects on Kaggle and YouTube
+
+---
+
+##  License
+This project is licensed under the MIT License. Feel free to use and modify.
